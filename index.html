@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natur-e Wrap - Eco-Friendly Wrap</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Natur-e Wrap</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#preorder">Pre‑Order</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Natur-e Wrap</h1>
+            <p class="tagline">Carry foods in good moods</p>
+        </div>
+    </section>
+
+    <!-- Problem Section removed as per latest instructions -->
+
+    <!-- Product Section -->
+    <section id="product" class="product">
+        <div class="container">
+            <h2>Product</h2>
+            <div class="product-info">
+                <h3>Value Proposition</h3>
+                <p>
+                    Natural Wrap is a reusable, plastic-free food cover made from natural and recycled materials. It keeps food fresher for longer in the fridge, reducing waste—just shape with your hands, rinse, and reuse.
+                </p>
+                <ul class="features">
+                    <li>Eco‑friendly wrap that extends the life of food</li>
+                    <li>Made from natural, biodegradable materials</li>
+                    <li>Reusable and compostable for zero waste</li>
+                </ul>
+                <p class="price">10‑Pack: $90</p>
+                <div class="gallery">
+                    <img src="natural1.png" alt="Natur-e Wrap packaging">
+                    <img src="natural2.png" alt="Natur-e Wrap reusable food storage box">
+                </div>
+                <a href="#preorder" class="btn order-btn">Pre‑Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video">
+        <div class="container">
+            <h2>Video</h2>
+            <!-- Embedded video; this can be replaced with another MP4 file if desired -->
+            <video class="product-video" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Pre-Order Section -->
+    <section id="preorder" class="preorder">
+        <div class="container">
+            <h2>Pre-Order</h2>
+            <p>Be the first to receive our 10‑Pack of Natur‑e Wrap! Fill out the form below to register your interest.</p>
+            <form class="preorder-form" action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="preorder-name">Name</label>
+                        <input type="text" id="preorder-name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preorder-email">Email</label>
+                        <input type="email" id="preorder-email" name="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="preorder-phone">Phone (optional)</label>
+                        <input type="tel" id="preorder-phone" name="phone" placeholder="Your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="preorder-quantity">Quantity</label>
+                        <input type="number" id="preorder-quantity" name="quantity" min="1" value="1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="preorder-message">Message (optional)</label>
+                    <textarea id="preorder-message" name="message" placeholder="Any questions or comments"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>
+                Have questions? Reach out using the form below and we will get back to you soon.
+            </p>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" name="message" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Natur-e Wrap. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
